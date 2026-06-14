@@ -27,7 +27,6 @@ python src/generation/generator.py --num_images 5000 --texture_mode neon
 That will spit out a timestamped folder inside your data directory with all the chunked, auto-labeled COCO datasets.
 
 Step 2: Train
-Next, it's time to train. Just run:
 
 python src/training/train.py
 
